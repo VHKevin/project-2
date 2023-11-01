@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <title>KVH - Portfolio</title>
+</head>
+<body class="bg-dark">
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <img src="/images/favicon.ico" alt="">
+          <a class="navbar-brand ms-5" href="#">
+            <span>Kevin Van Ham</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobby.html">Hobby</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container mt-5">
+        <h1 class="mb-4">Contacteer Mij!</h1>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="firstname" class="form-label">Voornaam</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Voornaam" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastname" class="form-label">Achternaam</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Achternaam" required>
+            </div>
+            <div class="col-md-6">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInfo" placeholder="naam@voorbeeld.be" required >
+            </div>
+            <div class="col-md-6">
+                <label for="phoneNumber" class="form-label">Telefoon</label>
+                <input type="text" class="form-control" id="phoneNumber" placeholder="+32 482 45 56 42">
+            </div>
+            <div class="col-md-4">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>In welke skill ben je geïnteresseerd?</option>
+                    <option value="1">HTML & CSS</option>
+                    <option value="2">SQL</option>
+                    <option value="3">C#</option>
+                    <option value="4">Python</option>
+                    <option value="5">Bootstrap</option>
+                  </select>
+            </div>
+            <div class="col-md-12">
+              <label for="comments" class="form-label">Bericht</label>
+              <textarea class="form-control" id="comments" rows="4" required></textarea>  
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Verzend</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="social">
+            <a href="#">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="#" class="text-body-primary">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="text-body-primary">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://github.com/VHKevin" target="_blank" class="text-body-primary">
+              <i class="bi bi-github"></i>
+            </a>
+            <p class="copyright text-center">
+                &copy; Kevin Van Ham - 2023
+            </p>
+          </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

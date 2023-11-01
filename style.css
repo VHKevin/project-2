@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Barlow' Sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 1.5;
+}
+
+.navbar-brand img {
+    padding-right: 16px;
+}
+
+.navbar-brand span {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+
+
+a.nav.link {
+    margin-right: 39px;
+}
+
+p.copyright {
+    margin-top: 30px;
+}
+
+#hero h1 {
+    margin-bottom: 50px;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
